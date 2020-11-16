@@ -1,0 +1,42 @@
+{
+  "name": "assistant",
+  "version": "1.0.0",
+  "description": "Virtual assistant AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReeceKenney/VirtualAssistant.git"
+  },
+  "author": "Reece Kenney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReeceKenney/VirtualAssistant/issues"
+  },
+  "homepage": "https://github.com/ReeceKenney/VirtualAssistant#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.1.1",
+    "express": "^4.17.1",
+    "firebase": "^7.17.2",
+    "firebase-admin": "^8.9.1",
+    "js-cookie": "^2.2.1",
+    "linear16": "^1.2.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "node-fetch": "^2.6.0",
+    "node-schedule": "^1.3.2",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "socket.io": "^2.3.0",
+    "string-format": "^2.0.0",
+    "words-to-numbers": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
